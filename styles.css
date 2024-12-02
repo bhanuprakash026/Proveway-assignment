@@ -42,6 +42,8 @@ main {
   height: 24px;
 }
 
+
+
 .header {
   margin: 0 10px;
   font-family: Inter, sans-serif;
@@ -409,4 +411,11 @@ main>.pair:not(.active) .pair-body {
   .pair .pair-head .discount p {
     font-size: 0.8rem;
   }
+}
+
+input[type="radio"] {
+  accent-color: initial;
+}
+input[type="radio"]:checked {
+  accent-color: red;
 }
